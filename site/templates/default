@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head profile="http://www.w3.org/2005/10/profile">
-  	<link rel="icon" type="image/png" href="{{baseurl}}/images/favicon.png">
+  	<link rel="icon" type="image/png" href="{{{rootWebPrefix}}}/images/favicon.png">
   	<meta charset="utf-8">
  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
  	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,7 @@
     	<title>ESUG: {{{title}}}</title>
     	<link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="{{baseurl}}theme/style.css">
+	<link rel="stylesheet" type="text/css" href="{{{rootWebPrefix}}}theme/style.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,8 +18,8 @@
   <body>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
-	<a class="navbar-brand" href="{{baseurl}}">
-             <img alt="{{site_name}}" src="{{baseurl}}{{site_logo}}">
+	<a class="navbar-brand" href="{{{rootWebPrefix}}}">
+             <img alt="{{site_name}}" src="{{{rootWebPrefix}l}}{{site_logo}}">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
@@ -52,8 +52,7 @@
     </div>
    </div> 
     <footer class="footer">
-        This website is developed using <a href="https://github.com/pillar-markup/pillar-documentation">Pillar</a> and <a href="https://github.com/guillep/ecstatic">Ecstatic</a><br/>
-		Source Code and <a href="https://github.com/ESUG/esug.github.io/issues">Issue Tracker</a> hosted on <a href="https://github.com/ESUG/esug.github.io">Github</a>
+        This website is developed using <a href="https://github.com/pillar-markup/Foliage">Foliage</a> <br/> Source Code and <a href="https://github.com/ESUG/esugweb20">Issue Tracker</a> hosted on <a href="https://github.com/ESUG/">Github</a>
     </footer>
 
 
