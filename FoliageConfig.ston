@@ -1,0 +1,7 @@
+Foliage {
+	#baseUri : 'http://esug.org',
+	#webRootPrefix : '/ESUGWeb20',
+	#blogs: [ 
+		'news': 'News'
+	]
+}
