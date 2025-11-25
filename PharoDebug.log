@@ -1,0 +1,148 @@
+THERE_BE_DRAGONS_HERE
+ClapApplication had the subclass responsibility to implement #execute
+24 November 2025 1:24:55.099564 pm
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.709.sha.374678e2d5eedbaa16e66b94202b76beb8e075b3 (64 Bit)]
+
+ClapApplication(Object)>>subclassResponsibility
+	Receiver: a ClapApplication
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('foliage' 'publish' '--source' [..]
+
+
+ClapApplication>>execute
+	Receiver: a ClapApplication
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('foliage' 'publish' '--source' [..]
+
+
+ClapApplication>>executeOrPrintHelp
+	Receiver: a ClapApplication
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('foliage' 'publish' '--source' [..]
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('foliage' 'publish' '--source' '/Users/ducasse/Test[..]
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('foliage' 'publish' '--source' '/Users/duca[..]
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(foliage publish --source /Users/ducasse/Test2/E[..]
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('foliage' 'publish' '--source'[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('foliage' 'publish' '--source' '/Users/ducasse/Test[..]
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('foliage' 'publish' '--source' '/Users/duca[..]
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(foliage publish --source /Users/ducasse/Test2/E[..]
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+ClapApplication(Object)>>subclassResponsibility
+ClapApplication>>execute
+ClapApplication>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
