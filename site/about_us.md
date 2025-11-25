@@ -6,7 +6,7 @@
 
 # About Us
 
-![ % width=70&anchor=aboutus](/images/Aboutus.jpg)
+![  % width=900&anchor=aboutus](/images/Aboutus.jpg)
 
 # Board
 The ESUG Board as elected 2010
@@ -40,7 +40,7 @@ Its goals are to:
 ESUG users usually meets at the yearly ESUG users conference and Object-Oriented Conferences, such as ECOOP and SPLASH. Board members can be reached through e-mail at *board@esug.org* (which broadcasts to all board members) for information.
 
 ## Mailinglist
-For mailings to members and everybody who subscribed directly to the mailing list you can send a mail to *esug-list@lists.esug.org*. To Join the mailing list, go to *https://lists.esug.org/postorius/lists/esug-list.lists.esug.org/*. Currently more than 500 Smalltalkers all over Europe and beyond!.
+For mailings to members and everybody who subscribed directly to the mailing list you can send a mail to *esug-list@lists.esug.org*. To Join the mailing list, go to [https://lists.esug.org/postorius/lists/](https://lists.esug.org/postorius/lists/). Currently more than 500 Smalltalkers all over Europe and beyond!.
 
 ## ESUG on Social Media
 
