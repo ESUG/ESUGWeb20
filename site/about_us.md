@@ -1,33 +1,33 @@
 {
 "title" : "About us",
-"layout": "default",
+"layout": "defaultESUG",
 "publishDate": "2021-02-01"
 }
 
 # About Us
 
-![  % width=900&anchor=aboutus](/images/Aboutus.jpg)
+![  % width=900&anchor=aboutus](images/Aboutus.jpg)
 
-# Board
+## Board
 The ESUG Board as elected 2010
-- President: *Stéphane Ducasse>http://stephaneducasse.github.io/* (Inria)
+- President: [Stéphane Ducasse](https://stephaneducasse.github.io/) (Inria)
 - Treasurer: Pablo Tesone
-- *Luc Fabresse>http://car.mines-douai.fr/luc* (EMD)
-- *Marcus Denker>http://www.marcusdenker.de/* (Inria)
-- *Alain Plantec>http://www.lisyc.univ-brest.fr/pages_perso/plantec* (UBO)
-- *Serge Stinckwich>http://doesnotunderstand.org/* (IRD)
+- [Luc Fabresse](http://car.mines-douai.fr/luc) (EMD)
+- [Marcus Denker](http://www.marcusdenker.de/) (Inria)
+- [Alain Plantec](http://www.lisyc.univ-brest.fr/pages_perso/plantec) (UBO)
 
 
-## Contact ESUG
+
+### Contact ESUG
 
 - You can reach the ESUG board at board@esug.org
 
 
-## Legal Information
+### Legal Information
 ESUG is a french-law association, and hence it is not subject to the VAT. It does not have a siret number but is registered under the number W751167780.
 
 
-## Our Goals
+### Our Goals
 ESUG is a non-profit association that gathers all European users of all dialects of Smalltalk. It was registered in 1991 under French status "Association de Loi 1901".
 
 Its goals are to:
@@ -39,10 +39,10 @@ Its goals are to:
 
 ESUG users usually meets at the yearly ESUG users conference and Object-Oriented Conferences, such as ECOOP and SPLASH. Board members can be reached through e-mail at *board@esug.org* (which broadcasts to all board members) for information.
 
-## Mailinglist
+### Mailinglist
 For mailings to members and everybody who subscribed directly to the mailing list you can send a mail to *esug-list@lists.esug.org*. To Join the mailing list, go to [https://lists.esug.org/postorius/lists/](https://lists.esug.org/postorius/lists/). Currently more than 500 Smalltalkers all over Europe and beyond!.
 
-## ESUG on Social Media
+### ESUG on Social Media
 
 - Mastodon: [@esugsmalltalk@mastodon.social](https://mastodon.social/@esugsmalltalk)
 - BlueSky: [esugsmalltalk.bsky.social](https://bsky.app/profile/esugsmalltalk.bsky.social)
