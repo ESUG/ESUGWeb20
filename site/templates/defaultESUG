@@ -28,7 +28,7 @@
         <!--<div class="container-fluid">-->
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="navbar-nav ml-auto">
-                    {{# menu }}
+                    {{# site.menu }}
                     <li id="{{title}}" {{# has_subfiles }}class="nav-item dropdown disabled"{{/ has_subfiles }}>
 			<a href="{{url}}" {{# has_subfiles }}class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"{{/ has_subfiles }}>
                             {{ title }}
@@ -42,7 +42,7 @@
                         </div>
                         {{/ has_subfiles }}
                    </li>
-	           {{/ menu }}
+	           {{/ site.menu }}
 		   
                 </ul>
             </div>
