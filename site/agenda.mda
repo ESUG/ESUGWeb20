@@ -1,0 +1,179 @@
+{
+"title" : "Agenda ESUG 2026",
+"layout": "agenda",
+}
+
+<!agenda
+# (DRAFT) ESUG 2026
+- defaultTalkLength: 30
+- defaultRoom: main
+- rooms:
+  - main: Main Amphi
+  - hall: Hall
+  - walking: Walking!
+
+
+## Tues. July 7nd
+
+### 09:00
+
+#### Welcome to ESUG
+- speaker: Stéphane Ducasse
+
+#### Pharo 14 and beyond
+- speaker: Stéphane Ducasse
+
+#### Coffee Break
+- room: hall
+
+#### Pharo Pulsar: Spinning you into a Power User
+- speaker: Esteban Lorenzano
+
+#### Live UML Sequence Diagrams, their building and tests
+- speaker: Kasper Østerbye
+
+#### Bloc5: an Artful Bloc API Designed for Creativity
+- speaker: Domenico Cipriani
+
+#### Lunch
+- room: hall
+- length: 120
+
+#### The Future of LLM in Pharo: PharoLLM
+- speaker: Omar AbedelKader
+
+#### The Pharo Module System&
+- speaker: Guillermo Polito
+
+#### Compile-time PIC Generation using LiveTyping Information
+- speaker: Nicolás Matías Sarfati
+
+#### Coffee Break
+- room: hall
+
+#### Soil - architecture & design
+- speaker: Norbert Hartl, Marcus Denker
+
+#### Moose and Tree Sitter
+- speaker: Cyril Ferlicot
+
+#### Awards competition
+- length: 120
+
+
+## Wed. July 8nd
+
+### 09:00
+
+#### GemTalk Update and Roadmap
+- speaker: Norm Green, James Foster
+#### Transpiling Python to Smalltalk
+- speaker: James Foster
+
+#### Coffee Break
+- room: hall
+
+#### Complishon: a Better completion engine for Pharo
+- speaker: Stéphane Ducasse, Omar Abedelkader, Mehdi Elkokei
+
+#### Moldable LLM Chats in Glamorous Toolkit
+- speaker: Andrei Chis
+
+#### MyPrecious Middleware
+- speaker: Noury Bouraqadi
+
+#### Lunch
+- room: hall
+- length: 120
+
+#### Glamorous Toolkit
+- speaker: Andrei Chis
+
+#### PharoSDL3: New FFI Bindings for SDL3 in Pharo
+- speaker: Martin Dias and Pablo Tesone
+
+#### Bloc for Pharo: What's New?
+- speaker: Martin Dias andPablo Tesone
+
+#### Coffee Break
+- room: hall
+
+#### Pharo on the Desktop: A Tour of Tools and Feedback Loops
+- speaker: Esteban Lorenzano
+
+#### Show us your project
+- speaker: &length=120&room=Main Amphi!>
+
+
+## Thur July 9nd
+
+### 09:00
+
+#### Using AI to Demystify Running GemStone Systems
+- speaker: Anna Stefaniv Oickle
+
+#### The VAST Platform AI Assistant: Integrating LLMs into a Live Smalltalk Environment
+- speaker: Johan Brichau, Kris Gybels
+
+#### Coffee Break
+- room: hall
+
+#### Modularity by Construction
+- speaker: Guillermo Polito
+
+#### Pharo CIG, Round Two: Growing a Native Library Ecosystem for Pharo
+- speaker: Esteban Lorenzano
+
+####  PharoJS 10th Anniversary: Now What?
+- speaker: Noury Bouraqadi
+
+#### Lunch
+- room: hall
+- length: 120
+
+#### ChatPharo: an AI Assistant inside Pharo
+- speaker: Omar AbedelKader
+
+#### From Squeak to Pharo: Modernizing the Eclipse SageTea Runtime for Edge AI and Sovereign Computing
+- speaker: David Long, Stéphane Ducasse
+
+#### Spec-Toplo: More Widgets, More Coverage
+- speaker: Martin Dias and Pablo Tesone
+
+#### Coffee Break
+- room: hall
+
+#### Music Performance
+- speaker: DJ Lucretio
+
+#### Going to the social event
+- length: 60
+- room: walking
+#### Social event
+- length: 360
+- room: walking
+
+
+## Frid July 10nd
+
+### 09:00
+
+#### Undo the World
+- speaker: Martin McClure
+
+#### An Introduction to Ownership in Object-Oriented Languages
+- speaker: Marcus Denker
+
+#### Coffee Break
+- room: hall
+
+#### Hera: A Year in Production — Growing a BDD Framework in Pharo
+- speaker: Koen De Hondt
+
+#### Microdown News
+- speaker: Stéphane Ducasse
+
+#### Exploring the future
+- speaker: Stéphane Ducasse
+
+!>
